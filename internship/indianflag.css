@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.flag {
+  width: 240px;
+  height: 160px;
+  border: 2px solid #000;
+}
+
+.saffron, .white, .green {
+  height: 33.33%;
+  width: 100%;
+}
+
+.saffron {
+  background-color: #FF9933;
+}
+
+.white {
+  background-color: white;
+  position: relative;
+}
+
+.green {
+  background-color: #138808;
+}
+
+.chakra {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000080;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chakra::before,
+.chakra::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 2px;
+  background-color: #000080;
+  transform: translate(-50%, -50%);
+}
+
+.chakra::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.chakra span {
+  position: absolute;
+  width: 2px;
+  height: 50%;
+  background-color: #000080;
+  top: 0;
+  left: 50%;
+  transform-origin: center bottom;
+}
+
+.chakra span:nth-child(n) {
+  transform: rotate(calc(var(--i) * 15deg));
+}
+
+.pole {
+    height: 70%;
+    width: 1.5%;
+    background-color: #000;
+}
+.stand1 {
+    height: 15px;
+    width: 80px;
+    margin-left: -44px;
+    margin-top: 430px;
+    background-color: rgb(123, 51, 51);
+}
+.stand2 {
+    height: 15px;
+    width: 100px;
+    margin-left: -90px;
+    margin-top: 460px;
+    background-color: rgb(123, 51, 51);
+}
+.stand3 {
+    height: 15px;
+    width: 120px;
+    margin-left: -110px;
+    margin-top: 490px;
+    background-color: rgb(123, 51, 51);
+}
+

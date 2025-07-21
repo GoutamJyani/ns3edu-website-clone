@@ -1,0 +1,112 @@
+.navigating h1{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(7, 59, 7);
+}
+
+.navigating{
+    margin-top: 100px;
+
+    height: 70px;
+    width: 1000px;
+    box-shadow: 50px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-left: 150px;
+}
+
+.inaworld p{
+  margin-left: 150px;
+  margin-top: 25px;
+  margin-right: 100px;
+  font-size: 100%;
+  color: grey;
+}
+
+.diploma button{
+    background-color: rgb(0, 77, 0);
+    color: white;
+    
+    margin-left: 200px;
+}
+
+.diploma{
+    height: auto;
+    width: 550px;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.diploma a :hover{
+    pointer-events: stroke;
+    background-color: white;
+    color: black;
+}
+
+.diplomacourse{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+    row-gap: 30px;
+}
+
+.exploreour{
+        background-color: rgb(244, 249, 255);
+
+}
+
+
+.para1{
+    box-shadow: 50px;
+    box-shadow: 5px 10px 18px #888888;
+    height: auto;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+.expertfaculty{
+    height: 230px;
+    width: 230px;
+    background-color: lightgreen;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.whychoose{
+    display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-left: 50px;
+      margin-right: 50px;
+      gap: 20px;
+}
+
+.para1 h4{
+    text-align: center;
+}
+
+.aboutlearn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.supercharge{
+    text-align: center;
+}
+
+.ownalaptop{
+    height: 380px;
+    width: 300px;
+    box-shadow: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 50px;
+}
+
+.owna{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 100px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}

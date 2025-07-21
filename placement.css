@@ -1,0 +1,54 @@
+.welcome{
+    margin-top: 00px;
+    height: auto;
+    width: 1000px;
+    background-color: rgb(188, 212, 212);
+    justify-content: center;
+    
+    margin-left: 150px;
+    position: absolute;
+    align-items: center;
+}
+
+.welcomeheading{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.line1{
+    height: 1px;
+    width: 960px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}   
+
+.welcome p{
+  margin-left: 80px;
+  margin-top: 25px;
+  margin-right: 80px;
+  font-size: 90%;
+line-height: 20px;
+  color: grey;
+}
+
+h1{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.onepicture{
+    text-align: center;
+    border-radius: 5%;
+    background-color: white;
+    height: 330px;
+    width: 200px;
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 40px;
+    row-gap: 20px;
+}
